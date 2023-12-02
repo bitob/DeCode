@@ -1,0 +1,37 @@
+partial modifier_keys
+xkb_symbols "shift_level2_latched" {
+  key <LFSH> {
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ ISO_Level2_Latch ]
+  };
+  key <RTSH> {
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ ISO_Level2_Latch ]
+  };
+  modifier_map Shift { <LFSH> };
+  modifier_map Shift { <RTSH> };
+};
+
+partial modifier_keys
+xkb_symbols "caps_level3" {
+  key <CAPS> {
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ ISO_Level3_Shift ]
+  };
+};
+
+partial modifier_keys
+xkb_symbols "caps_level3_latched" {
+  key <CAPS> {
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ ISO_Level3_Latch ]
+  };
+};
+
+partial modifier_keys
+xkb_symbols "ralt_level3_latched" {
+  key <RALT> {
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ ISO_Level3_Latch ]
+  };
+};
