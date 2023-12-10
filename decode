@@ -34,15 +34,15 @@ xkb_symbols "de" {
     //key <AD11>	{ [udiaeresis, Udiaeresis, dead_diaeresis, dead_abovering ] };
     //key <AD12>	{ [      plus,   asterisk,   asciitilde,  macron ]	};
     key <AD01>	{ [         q,          Q,           at,  Greek_OMEGA ]	};
-    key <AD02>	{ [         w,          W,     bracketleft,      Lstroke ]	};
-    key <AD03>	{ [         e,          E,     bracketright,     EuroSign ]	};
+    key <AD02>	{ [         w,          W,     braceleft,      Lstroke ]	};
+    key <AD03>	{ [         e,          E,     braceright,     EuroSign ]	};
     key <AD04>	{ [         r,          R,       quotedbl,   registered ]	};
     key <AD05>	{ [         t,          T,      percent,       Tslash ]	};
     key <AD06>	{ [         z,          Z,    quotedbl,          yen ]	};
     key <AD07>	{ [         u,          U,        parenleft,      uparrow ]	};
     key <AD08>	{ [         i,          I,    parenright,     idotless ]	};
-    key <AD09>	{ [         o,          O,   bracketleft,     Ooblique ]	};
-    key <AD10>	{ [         p,          P,        bracketright,        THORN ]	};
+    key <AD09>	{ [         o,          O,   braceleft,     Ooblique ]	};
+    key <AD10>	{ [         p,          P,        braceright,        THORN ]	};
     key <AD11>	{ [udiaeresis, Udiaeresis, greater, dead_abovering ] };
     key <AD12>	{ [      plus,   asterisk,   asciitilde,  macron ]	};
 	
@@ -61,17 +61,17 @@ xkb_symbols "de" {
     //key <AC11>	{ [adiaeresis, Adiaeresis, dead_circumflex, dead_caron ] };
     //key <BKSL>	{ [numbersign, apostrophe, rightsinglequotemark,   dead_breve ]	};
     key <AC01>	{ [         a,          A,            circumflex,           AE ]	};
-    key <AC02>  { [         s,          S,            braceleft,     U1E9E    ] };
-    key <AC03>	{ [         d,          D,            braceright,          ETH ]	};
+    key <AC02>  { [         s,          S,            bracketleft,     U1E9E    ] };
+    key <AC03>	{ [         d,          D,            bracketright,          ETH ]	};
     key <AC04>	{ [         f,          F,            ampersand,  ordfeminine ]	};
-    key <AC05>	{ [         g,          G,            exclam,          ENG ]	};
+    key <AC05>	{ [         g,          G,            equal,          ENG ]	};
     key <AC06>	{ [         h,          H,            ampersand,      Hstroke ]	};
     key <AC07>  { [         j,          J,            percent, dead_abovedot   ] };
     key <AC08>	{ [         k,          K,            dollar,    ampersand ]	};
-    key <AC09>	{ [         l,          L,            braceleft,      Lstroke ]	};
-    key <AC10>	{ [odiaeresis, Odiaeresis,            braceright, dead_belowdot ] };
+    key <AC09>	{ [         l,          L,            bracketleft,      Lstroke ]	};
+    key <AC10>	{ [odiaeresis, Odiaeresis,            bracketright, dead_belowdot ] };
     key <AC11>	{ [adiaeresis, Adiaeresis,    less, dead_caron ] };
-    key <BKSL>	{ [numbersign, apostrophe, acute,   dead_breve ]	};
+    key <BKSL>	{ [numbersign, apostrophe, grave,   dead_breve ]	};
 	
 	// row: < y x c v b n m , . -
 	//key <LSGT>	{ [     less,     greater,                  bar,     NoSymbol   ] };
@@ -89,7 +89,7 @@ xkb_symbols "de" {
 	key <AB01>	{ [         y,          Y,       guillemotright,    U203A 	] };
     key <AB02>	{ [         x,          X,        guillemotleft,    U2039 	] };
     key <AB03>	{ [         c,          C,         dollar,    copyright ]	};
-    key <AB04>	{ [         v,          V,   equal, singlelowquotemark ]	};
+    key <AB04>	{ [         v,          V,   exclam, singlelowquotemark ]	};
     key <AB05>	{ [         b,          B,  leftdoublequotemark, leftsinglequotemark ] };
     key <AB06>	{ [         n,          N, exclam, rightsinglequotemark ]	};
     key <AB07>	{ [         m,          M,           mu,    masculine ]	};
